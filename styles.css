@@ -6,9 +6,41 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
+  font-family: 'Amatic SC', cursive;
+}
+#top-knot{
+  height: 100px;
+  /* padding-bottom: 1%; */
+}
+.page-title{
+  padding-left: 1.5%;
+}
+.navbar{
+  background-color: #3C486B;
+  display: flex;
+}
+.navbar-title{
+  color: #F45050;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+.navbar-title:hover{
+  color: #F9D949
+}
+.nav-link{
+  font-size: large;
+}
+.inside-nav{
+  display: block
 }
 
-
+form .btn{
+  margin-left: .2rem;
+  background-color: #F45050;
+}
+.container-fluid{
+  display: flex;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -20,6 +52,7 @@ body {
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
+  color:#3C486B
 }
 
 /* Declare heights because of positioning of img element */
@@ -32,6 +65,11 @@ body {
   left: 0;
   min-width: 100%;
   height: 32rem;
+}
+
+.btn{
+  background-color: #19A7CE;
+  border: none;
 }
 
 
@@ -59,6 +97,8 @@ body {
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  background-color: #3C486B;
+  height: 25px;
 }
 
 /* Thin out the marketing headings */
