@@ -7,6 +7,7 @@ body {
   padding-bottom: 3rem;
   color: #5a5a5a;
   font-family: 'Amatic SC', cursive;
+  background-color: #F0F0F0;
 }
 #top-knot{
   height: 100px;
@@ -49,6 +50,8 @@ form .btn{
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
+  background-color: #ffffff;
+  border-bottom: dashed 1px #3C486B;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -67,10 +70,10 @@ form .btn{
 .image-wrap{
   padding: 7% 20% 10% 25%;
 
-  background-color: #F0F0F0;
+  /* background-color: #F0F0F0; */
 }
 .top-cat{
-  border-radius: 50% 20% / 10% 40%;
+  /* border-radius: 50% 20% / 10% 40%; */
   /* margin-top: 10%; */
   margin-left: 35%;
   margin-right: 50%;
@@ -92,6 +95,14 @@ form .btn{
   display: flex;
   flex-direction: row;
 }
+
+.teamwork{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-left: 27%;
+ 
+}
+
 .puppy{
   padding-top: 7%;
   padding-left: 5%;
@@ -99,7 +110,7 @@ form .btn{
   width: 100%;
   /* padding-botom: 8%; */
   /* padding-right: 50%; */
-  background-color: #F0F0F0;
+  /* background-color: #F0F0F0; */
   /* height: 50%;
   width: 50% */
 
